@@ -10,11 +10,89 @@
 
     <title>David Liedtka</title>
 
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+
+      .fa:hover {
+        opacity: 0.7;
+      }
+
+      .fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
+
+      .fa-twitter {
+        background: #55ACEE;
+        color: white;
+      }
+
+      .fa-linkedin {
+        background: #007bb5;
+        color: white;
+      }
+
+      .fa-instagram {
+        background: #DB7093;
+        color: white;
+      }
+
+      .fa-envelope {
+        background: #CC0000;
+        color: white;
+      }
+    </style>
+
     <!-- Bootstrap core CSS -->
     <link href="scrolling-nav/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="scrolling-nav/css/scrolling-nav.css" rel="stylesheet">
+
+    <!-- my styling -->
+    <style>
+      .work {
+        /*background: #4286f4;*/
+        border: 1px solid black;
+      }
+
+      .work:hover {
+        opacity: 0.7;
+      }
+
+      .noline:link {
+        color: white;
+        color: black;
+        text-decoration: none;
+      }
+
+      .noline:visited {
+        color: white;
+        color: black;
+        text-decoration: none;
+      }
+
+      .noline:hover {
+        color: white;
+        color: black;
+        text-decoration: none;
+      }
+
+      .noline:active {
+        color: white;
+        color: black;
+        text-decoration: none;
+      }
+    </style>
 
   </head>
 
@@ -92,29 +170,29 @@
           <div class="col-lg-10 mx-auto">
             <div class="card-deck">
 
-              <div class="card"><a href="dsaa2018.pdf">
-                <img class="card-img-top" src="img/dsaa2018.jpg" alt="DSAA 2018" style="height:200px;width:200px;display:block;margin-left:auto;margin-right:auto;">
+              <div class="card work"><a class="noline" href="dsaa2018.pdf">
+                <img class="card-img-top" src="img/dsaa2018.jpg" alt="DSAA 2018" style="height:200px;width:100%;display:block;margin-left:auto;margin-right:auto;border:1px solid black;">
                 <div class="card-body">
                   <h5 class="card-title" style="text-align:center;">DSAA 2018</h5>
                 </div>
               </a></div>
 
-              <div class="card"><a href="mlg2018.pdf">
-                <img class="card-img-top" src="img/mlg2018.jpg" alt="MLG 2018" style="height:200px;width:200px;display:block;margin-left:auto;margin-right:auto;">
+              <div class="card work"><a class="noline" href="mlg2018.pdf">
+                <img class="card-img-top" src="img/mlg2018.jpg" alt="MLG 2018" style="height:200px;width:100%;display:block;margin-left:auto;margin-right:auto;border:1px solid black;">
                 <div class="card-body">
                   <h5 class="card-title" style="text-align:center;">MLG 2018</h5>
                 </div>
               </a></div>
 
-              <div class="card"><a href="trident.pdf">
+              <div class="card work"><a class="noline" href="trident.pdf">
                 <img class="card-img-top" src="img/usna.png" alt="USNA Crest" style="height:200px;width:150px;display:block;margin-left:auto;margin-right:auto;">
                 <div class="card-body">
                   <h5 class="card-title" style="text-align:center;">Trident Scholar Final Report</h5>
                 </div>
               </a></div>
 
-              <div class="card"><a href="CV.pdf">
-                <img class="card-img-top" src="img/cv.png" alt="CV" style="height:200px;width:200px;display:block;margin-left:auto;margin-right:auto;">
+              <div class="card work"><a class="noline" href="CV.pdf">
+                <img class="card-img-top" src="img/cv.png" alt="CV" style="height:200px;width:100%;display:block;margin-left:auto;margin-right:auto;border:1px solid black;">
                 <div class="card-body">
                   <h5 class="card-title" style="text-align:center;">CV</h5>
                 </div>
@@ -133,24 +211,29 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Contact me</h2>
-            <p class="lead">Feel free to contact me on any platform:</p>
-			<!-- make these into panels? use card deck; how to do email? -->
-			<ul>
-				<li><a href="mailto:dliedtka@gmail.com">dliedtka@gmail.com</a></li>
-				<li><a href="https://www.linkedin.com/in/davidliedtka">LinkedIn</a></li>
-				<li><a href="https://twitter.com/davidliedtka">Twitter</a></li>
-				<li><a href="https://www.facebook.com/davidliedtka">Facebook</a></li>
-				<li><a href="https://www.instagram.com/davidliedtka/">Instagram</a></li>
-			</ul>
+            <p>Feel free to contact me on any platform. My best email address is <a href="mailto:dliedtka@gmail.com">dliedtka@gmail.com</a>.</p>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <center>
+            <a href="mailto:dliedtka@gmail.com"><button type="button" class="btn-lg fa fa-envelope"></button></a>
+            <a href="https://www.linkedin.com/in/davidliedtka"><button type="button" class="btn-lg fa fa-linkedin"></button></a>
+            <a href="https://twitter.com/davidliedtka"><button type="button" class="btn-lg fa fa-twitter"></button></a>
+            <a href="https://www.facebook.com/davidliedtka"><button type="button" class="btn-lg fa fa-facebook"></button></a>
+            <a href="https://www.instagram.com/davidliedtka"><button type="button" class="btn-lg fa fa-instagram"></button></a>
+            </center>
+          </div>
+        </div>
+
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Last edited: 07 August 2018</p>
+        <p class="m-0 text-center text-white">Last edited: 08 August 2018</p>
       </div>
       <!-- /.container -->
     </footer>
